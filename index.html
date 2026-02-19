@@ -1,0 +1,231 @@
+<!-- =========================================================
+STEP 1: Add the required HTML5 skeleton
+========================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Learning to Surf for Beginners</title>
+    <link rel="stylesheet" href="a4_stylesheet.css">
+  
+  </head>
+
+  <body>
+    <h2>SurfIt</h2>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="#">Link1</a></li>
+      </ul>
+    </nav>
+
+    <!-- =========================================================
+    STEP 2: Build the “top area” (site name + navigation) using simple HTML
+    ========================================================= -->
+
+    <header>
+    
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Basics</a></li>
+          <li><a href="#featured">Top Tip</a></li>
+          <li><a href="#practice">Practice Plan</a></li>
+          <li><a href="#safety">Safety</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- =========================================================
+    STEP 3: Hero section + “Get Started button” as a link
+    ========================================================= -->
+
+    <main>
+      <section id="hero" aria-label="Hero section">
+        
+        <h1>Learning to Surf for Beginners</h1>
+        <p>
+          This page covers the essentials to start surfing: safety, gear, and a
+          simple step-by-step plan so your first sessions feel less confusing.
+        </p>
+
+        <!-- "Button" will be styled later in CSS; for now it's just a link -->
+        <p><a href="#features">Get Started</a></p>
+
+        
+        <img
+          src="Images/austin-neill-uHD0uyp79Dg-unsplash.jpg"
+          alt="Person surfing a wave"
+          width="1200"
+        >
+      </section>
+
+      <!-- =========================================================
+      STEP 4: Features section (3 blocks) + featured content section
+      ========================================================= -->
+
+      <section id="features" aria-label="Features section">
+        <h2>Beginner Basics</h2>
+
+        <section aria-label="Three feature blurbs">
+          <article>
+           
+            <img
+              src="Images/beach-svgrepo-com.svg"
+              alt="Palm tree and sun icon"
+              width="90"
+            >
+            <h3>Warm Weather Sport</h3>
+            <p>
+              Surfing is easiest to learn in calm, warm conditions. Start at a
+              beginner-friendly beach with smaller waves and lots of space.
+            </p>
+          </article>
+
+          <article>
+          
+            <img
+              src="Images/surf-3-svgrepo-com.svg"
+              alt="Person holding a surfboard icon"
+              width="90"
+            >
+            <h3>Gear You Actually Need</h3>
+            <p>
+              A long soft-top board is easier and safer for learning. Use a
+              leash, wax (or a traction pad), and a wetsuit if the water is cold.
+            </p>
+          </article>
+
+          <article>
+           
+            <img
+              src="Images/surf-svgrepo-com.svg"
+              alt="Person surfing icon"
+              width="90"
+            >
+            <h3>A Simple Progression</h3>
+            <p>
+              Learn in stages: practice paddling, then catching whitewater, then
+              the pop-up. Standing up comes easier after you can control the
+              board and your balance.
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <section id="featured" aria-label="Featured content section">
+        <h2>The #1 Beginner Tip</h2>
+
+    
+        <img
+          src="Images/matt-paul-catalano-0QEG_xOoY7Y-unsplash.jpg"
+          alt="A wave breaking in the ocean"
+          width="1000"
+        >
+
+        <p>
+          Most beginners try to stand too early and look down at their feet.
+          Focus on timing and looking forward. Your body goes where your eyes go.
+        </p>
+
+        <h3>Quick tips</h3>
+        <ul>
+          <li>Look forward (not at the board)</li>
+          <li>Hands under your ribs when you pop up</li>
+          <li>Keep your weight centered over the board</li>
+          <li>Start on small whitewater waves</li>
+        </ul>
+
+        <p>
+          Check the waves and weather at 
+          <a
+            href="https://www.surfline.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Surfline </a
+          >
+        </p>
+      </section>
+
+      <!-- =========================================================
+      STEP 5: Two secondary content blocks + CTA section
+      ========================================================= -->
+
+      <section id="practice" aria-label="Practice plan section">
+        <h2>Beginner Practice Plan</h2>
+
+        <article>
+          <h3>Session 1: Whitewater + Balance</h3>
+          <p>
+            Start close to shore in broken waves (whitewater). Practice laying
+            down, paddling straight, and riding the foam without standing. The
+            goal is control and comfort.
+          </p>
+          <p>
+            Once you can ride straight, practice a slow pop-up. If you fall, it’s
+            normal; focus on repeating the motion safely and consistently.
+          </p>
+        </article>
+
+        <article>
+          <h3>Session 2: Pop-Up Reps + Direction</h3>
+          <p>
+            Do pop-up practice on the sand first, then in the water. Try to angle
+            your board slightly left or right so you’re not always going straight
+            in.
+          </p>
+          <p>
+            Keep your knees slightly bent and your chest up. If the board feels
+            wobbly, you may be standing too far back or too stiff.
+          </p>
+        </article>
+      </section>
+
+      <section id="safety" aria-label="Safety and etiquette section">
+        <h2>Safety and Etiquette</h2>
+
+        <h3>First session checklist</h3>
+        <ul>
+          <li>Check conditions (waves, wind, currents)</li>
+          <li>Wear a leash and use the right board size</li>
+          <li>Warm up shoulders and legs</li>
+          <li>Never dive headfirst, instead, protect your head and neck</li>
+        </ul>
+
+        <h3>Basic etiquette rules</h3>
+        <ul>
+          <li>Don’t drop in: one person per wave (closest to the peak goes)</li>
+          <li>Keep distance from other surfers</li>
+          <li>Hold onto your board (avoid “board missiles”)</li>
+          <li>Be respectful and patient. Remember, everyone started somewhere</li>
+        </ul>
+      </section>
+
+      <section aria-label="Call to action section">
+        <h2>Ready to try it?</h2>
+        <p>
+          If you can, book one beginner lesson. If not, start with whitewater,
+          practice pop-ups on land, and keep sessions short so you don’t burn out.
+        </p>
+        <p><a href="#hero">Back to top</a></p>
+      </section>
+    </main>
+
+    <!-- =========================================================
+    STEP 6: Footer
+    ========================================================= -->
+
+    <footer>
+      <p>&copy; 2026 Pedro Calmon Coelho</p>
+
+      <nav aria-label="Footer links">
+        <ul>
+          <li><a href="#features">Basics</a></li>
+          <li><a href="#practice">Practice Plan</a></li>
+          <li><a href="#safety">Safety</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
