@@ -1,0 +1,212 @@
+<!-- =========================================================
+STEP 1: Add the required HTML5 skeleton
+========================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>SurfIt - Learning to Surf for Beginners</title>
+    <link rel="stylesheet" href="styles.css">
+  
+  </head>
+
+  <body>
+    
+
+    <!-- =========================================================
+    STEP 2: Build the “top area” (site name + navigation) using simple HTML
+    ========================================================= -->
+
+    <header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="brand">SurfIt<span class="dot">•</span></div>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#hero">Home</a>
+        <a href="#features">Basics</a>
+        <a href="#featured">Top Tip</a>
+        <a href="#secondary">Practice Plan</a>
+        <a href="#cta">Safety</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <!-- =========================================================
+    STEP 3: Hero section + “Get Started button” as a link
+    ========================================================= -->
+
+    <main>
+      <section id="hero" class="hero" aria-label="Hero section">
+        <div class="hero-content">
+
+        <h1>Learning to Surf for Beginners</h1>
+        <p>
+          This page covers the essentials to start surfing: safety, gear, and a
+          simple step-by-step plan so your first sessions feel less confusing.
+        </p>
+
+        <!-- "Button" will be styled later in CSS; for now it's just a link -->
+        
+
+        <a href="#features" class="btn btn-dark">Get Started</a>
+        <a href="#featured" class="btn btn-outline">Top Tip</a>
+
+        </div>
+        
+      </section>
+
+      <!-- =========================================================
+      STEP 4: Features section (3 blocks) + featured content section
+      ========================================================= -->
+
+      <section id="features" class="features" aria-label="Features section">
+        <div class="container">
+          <div class="features-grid">
+            <article class="feature">
+              <div class="icon">☀️</div>
+              <h3>Warm Weather Sport</h3>
+              <p>
+                Surfing is easiest to learn in calm, warm conditions. Start at a beginner-friendly
+                beach with smaller waves and lots of space.
+              </p>
+            </article>
+
+            <article class="feature">
+              <div class="icon">🏄</div>
+              <h3>Gear You Actually Need</h3>
+              <p>
+                A long soft-top board is easier and safer for learning. Use a leash, wax (or a
+                traction pad), and a wetsuit if the water is cold.
+              </p>
+            </article>
+
+            <article class="feature">
+              <div class="icon">✅</div>
+              <h3>A Simple Progression</h3>
+              <p>
+                Learn in stages: practice paddling, then catching whitewater, then the pop-up.
+                Standing up comes easier after you can control the board and your balance.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured" class="featured" aria-label="Featured content section">
+        <div class="container">
+          <h2 class="section-title">The #1 Beginner Tip</h2>
+          <p class="section-lede">
+            Most beginners try to stand too early and look down at their feet. Look forward —
+            your body goes where your eyes go.
+          </p>
+
+          <div class="media">
+            <img src="Images/matt-paul-catalano-0QEG_xOoY7Y-unsplash.jpg" alt="Breaking ocean wave" width="900">
+          </div>
+
+          <h3>Quick tips</h3>
+          <ul>
+            <li>Look forward (not at the board)</li>
+            <li>Hands under your ribs when you pop up</li>
+            <li>Keep your weight centered over the board</li>
+            <li>Start on small whitewater waves</li>
+          </ul>
+
+          <p>
+            Helpful resource:
+            <a href="https://www.noaa.gov/" target="_blank" rel="noopener noreferrer">
+              NOAA weather and ocean info
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      STEP 5: Two secondary content blocks + CTA section
+      ========================================================= -->
+
+      <section id="secondary" class="secondary" aria-label="Practice plan section">
+        <div class="container">
+          <h2 class="section-title">Beginner Practice Plan</h2>
+          <p class="section-lede">
+            Two sessions that focus on control first, then standing up.
+          </p>
+
+          <div class="secondary-grid">
+            <div class="card">
+              <div class="card-text">
+                <h3>Session 1</h3>
+                <p>
+                  Start close to shore in broken waves (whitewater). Practice paddling straight and
+                  riding the foam without standing. Then try a slow pop-up.
+                </p>
+                <a class="btn btn-outline" href="#cta">Safety reminders</a>
+              </div>
+              <div class="card-image img-a"></div>
+            </div>
+
+            <div class="card">
+              <div class="card-text">
+                <h3>Session 2</h3>
+                <p>
+                  Practice pop-ups on the sand first, then in the water. Try angling the board
+                  slightly left or right and keep your knees bent.
+                </p>
+                <a class="btn btn-outline" href="#featured">Review the top tip</a>
+              </div>
+              <div class="card-image img-b"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="cta" aria-label="Call to action section">
+        <div class="container">
+          <div class="cta-inner">
+            <h2>Ready to try it?</h2>
+            <p>
+              If you can, book one beginner lesson. If not, start with whitewater, practice pop-ups
+              on land, and keep sessions short so you don’t burn out.
+            </p>
+            <a class="btn btn-dark" href="#hero">Back to top</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================================
+    STEP 6: Footer
+    ========================================================= -->
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <p>&copy; 2026 Pedro Calmon Coelho</p>
+          <p>
+            SurfStart is a beginner guide for learning the basics: safety, gear, and practice progression.
+          </p>
+        </div>
+
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <a href="#features">Basics</a>
+            <a href="#featured">Top Tip</a>
+            <a href="#secondary">Practice Plan</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>More</h4>
+            <a href="https://www.surfline.com/" target="_blank" rel="noopener noreferrer">Surfline</a>
+            <a href="#hero">Back to top</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
